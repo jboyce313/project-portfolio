@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
-function App() {}
+function App() {
+  return <header></header>;
+}
 
 export default App;
