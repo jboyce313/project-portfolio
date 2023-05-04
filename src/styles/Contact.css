@@ -1,0 +1,22 @@
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.options * {
+  margin-bottom: 10px;
+}
+
+.contactHeader,
+a,
+.contactPage p {
+  text-align: center;
+}
+
+.contactHeader {
+  margin-bottom: 50px;
+}
+
+.contactPage p {
+  margin-top: 50px;
+}
