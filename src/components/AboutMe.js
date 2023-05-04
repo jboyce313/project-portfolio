@@ -1,7 +1,7 @@
 import React from "react";
 import me from "../images/me.jpg";
 
-function AboutMe() {
+function AboutMe({ display, setDisplay }) {
   return (
     <div className="display aboutMe">
       <h2 className="aboutMeHeader">About me</h2>
@@ -15,8 +15,11 @@ function AboutMe() {
         engineering and enrolled in the Full-Stack Coding Bootcamp at the
         University of Kansas.Upon my completion of this bootcamp in May of 2023,
         I will receive my full-stack certification. For more information on my
-        coding competencies, please see the <a href="">Resume</a> section of
-        this site.
+        coding competencies, please see the{" "}
+        <span className="resumeLink" onClick={() => setDisplay("resume")}>
+          Resume
+        </span>{" "}
+        section of this site.
       </p>
       <p>
         Outside of programming, I enjoy staying active. I like sports,

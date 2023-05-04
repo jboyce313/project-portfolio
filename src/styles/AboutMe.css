@@ -1,16 +1,18 @@
-.display {
-  margin-top: 40px;
-  margin-left: 80px;
-  margin-right: 80px;
-}
-
-.hidden {
-  display: none;
-}
-
 .myPic {
   height: 200px;
   width: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.bio {
+  margin-top: 0px;
+}
+
+.aboutMeHeader {
+  margin-bottom: 0px;
+}
+
+.resumeLink {
+  color: blue;
 }

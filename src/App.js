@@ -2,6 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./styles/Header.css";
 import "./styles/AboutMe.css";
+import "./styles/App.css";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
@@ -14,15 +15,17 @@ function App() {
   return (
     <div>
       <Header display={display} setDisplay={setDisplay} />
-      {display === "resume" ? (
-        <Resume />
-      ) : display === "portfolio" ? (
-        <Portfolio />
-      ) : display === "contact" ? (
-        <Contact />
-      ) : (
-        <AboutMe />
-      )}
+      <div className="displayContent">
+        {display === "resume" ? (
+          <Resume />
+        ) : display === "portfolio" ? (
+          <Portfolio />
+        ) : display === "contact" ? (
+          <Contact />
+        ) : (
+          <AboutMe display={display} setDisplay={setDisplay} />
+        )}
+      </div>
     </div>
   );
 }
