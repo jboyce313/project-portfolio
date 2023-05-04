@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
-function Header() {
+function Header({ display, setDisplay }) {
+  // const [display, setDisplay] = useState("portfolio");
+
   return (
     <header>
       <h1 className="my-name">Jacob Boyce</h1>
       <div className="nav-options">
-        <p>About me</p>
-        <p>Portfolio</p>
-        <p>Contact</p>
-        <p>Resume</p>
+        <p onClick={() => setDisplay("start")}>About me</p>
+        <p onClick={() => setDisplay("portfolio")}>Portfolio</p>
+        <p onClick={() => setDisplay("contact")}>Contact</p>
+        <p onClick={() => setDisplay("resume")}>Resume</p>
       </div>
     </header>
   );

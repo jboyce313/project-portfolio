@@ -4,6 +4,10 @@
   margin-right: 80px;
 }
 
+.hidden {
+  display: none;
+}
+
 .myPic {
   height: 200px;
   width: auto;

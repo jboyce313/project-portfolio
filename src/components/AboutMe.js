@@ -3,9 +3,9 @@ import me from "../images/me.jpg";
 
 function AboutMe() {
   return (
-    <div className="display">
+    <div className="display aboutMe">
       <h2 className="aboutMeHeader">About me</h2>
-      <img className="myPic" src={me} alt="My picture" />
+      <img className="myPic" src={me} alt="Me" />
       <p className="bio">
         Hello! My name is Jacob and I live in the Kansas City metro area. I
         graduated from the University of Missouri - Kansas City in 2021 with a
