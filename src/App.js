@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./styles/Header.css";
 import "./styles/AboutMe.css";
 import "./styles/App.css";
+import "./styles/Portfolio.css";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";

@@ -1,0 +1,30 @@
+.project {
+  /* width: 40%; */
+  width: 400px;
+  margin: 20px auto;
+}
+
+.card-img {
+  height: 100%;
+  width: auto;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-img-overlay {
+  visibility: hidden;
+}
+
+.project:hover .card-img-overlay {
+  visibility: visible;
+  background-color: rgba(255, 255, 255, 0.822);
+  color: rgb(0, 0, 97);
+}
+
+.project:hover .card-img-overlay a {
+  margin-right: 20px;
+}
