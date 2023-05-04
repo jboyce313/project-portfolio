@@ -17,7 +17,7 @@ function AboutMe({ display, setDisplay }) {
         I will receive my full-stack certification. For more information on my
         coding competencies, please see the{" "}
         <span className="resumeLink" onClick={() => setDisplay("resume")}>
-          Resume
+          resumé
         </span>{" "}
         section of this site.
       </p>

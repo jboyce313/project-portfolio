@@ -10,7 +10,7 @@ function Header({ display, setDisplay }) {
         <p onClick={() => setDisplay("start")}>About me</p>
         <p onClick={() => setDisplay("portfolio")}>Portfolio</p>
         <p onClick={() => setDisplay("contact")}>Contact</p>
-        <p onClick={() => setDisplay("resume")}>Resume</p>
+        <p onClick={() => setDisplay("resume")}>Resumé</p>
       </div>
     </header>
   );
