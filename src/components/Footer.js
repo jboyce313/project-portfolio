@@ -7,6 +7,7 @@ export default function Footer() {
       <a href="https://github.com/jboyce313">
         <FaGithub className="githubIcon" />
       </a>
+      <p>Built with REACT</p>
     </div>
   );
 }
