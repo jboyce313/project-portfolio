@@ -1,6 +1,6 @@
 .footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   background-color: rgb(223 223 223);
   position: fixed;
@@ -9,10 +9,19 @@
   width: 100%;
 }
 
-.githubIcon {
-  font-size: 35px;
+.github {
+  display: flex;
 }
 
-.footer p {
-  margin: 5px 20px;
+.githubIcon {
+  font-size: 35px;
+  /* margin-right: 40px; */
+}
+
+.github p {
+  margin: 5px 10px;
+}
+
+.message {
+  margin: 5px 0;
 }

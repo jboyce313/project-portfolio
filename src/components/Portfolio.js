@@ -70,7 +70,7 @@ export default function Portfolio() {
                   ))}
                 </ul>
                 <a href={project.appLink}>Visit App</a>
-                <a href={project.gitHubLink}>GitHub</a>
+                <a href={project.gitHubLink}>View on GitHub</a>
               </Card.Text>
             </Card.ImgOverlay>
           </Card>
