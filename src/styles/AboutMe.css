@@ -1,8 +1,9 @@
 .myPic {
-  height: 200px;
+  height: 300px;
   width: auto;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 40px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .aboutMe {
@@ -10,13 +11,25 @@
 }
 
 .aboutMeHeader {
-  margin-bottom: 0px;
+  margin-bottom: 40px;
 }
 
 .resumeLink {
-  color: blue;
+  color: rgb(0, 0, 229);
 }
 
 .lastParagraph {
   margin-bottom: 0;
+  margin-top: 50px;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.bio {
+  width: 60%;
+  font-size: large;
 }

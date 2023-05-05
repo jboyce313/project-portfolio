@@ -2,11 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(0, 0, 97);
-
-  height: 100px;
+  background-color: rgb(223 223 223);
+  position: fixed;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
 }
 
 .githubIcon {
-  font-size: 60px;
+  font-size: 35px;
 }
