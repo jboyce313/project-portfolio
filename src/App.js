@@ -5,11 +5,13 @@ import "./styles/AboutMe.css";
 import "./styles/App.css";
 import "./styles/Portfolio.css";
 import "./styles/Contact.css";
+import "./styles/Footer.css";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import Resume from "./components/Resume";
+import Footer from "./components/Footer";
 
 function App() {
   const [display, setDisplay] = useState("start");
@@ -28,6 +30,7 @@ function App() {
           <AboutMe display={display} setDisplay={setDisplay} />
         )}
       </div>
+      <Footer />
     </div>
   );
 }

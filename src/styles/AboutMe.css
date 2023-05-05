@@ -2,11 +2,11 @@
   height: 200px;
   width: auto;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
-.bio {
-  margin-top: 0px;
+.aboutMe {
+  padding-bottom: 80px;
 }
 
 .aboutMeHeader {
@@ -15,4 +15,8 @@
 
 .resumeLink {
   color: blue;
+}
+
+.lastParagraph {
+  margin-bottom: 0;
 }

@@ -19,4 +19,6 @@ a,
 
 .contactPage p {
   margin-top: 50px;
+  margin-bottom: 0;
+  padding-bottom: 50px;
 }

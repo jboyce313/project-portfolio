@@ -21,7 +21,7 @@ function AboutMe({ display, setDisplay }) {
         </span>{" "}
         section of this site.
       </p>
-      <p>
+      <p className="lastParagraph">
         Outside of programming, I enjoy staying active. I like sports,
         especially soccer and climbing, and I love movies and music. I am
         recently married and a new father to a beautiful baby girl.
