@@ -6,6 +6,9 @@ import techBlog from "../images/tech-blog.png";
 import scheduler from "../images/scheduler.png";
 import codeQuiz from "../images/code-quiz.png";
 import Card from "react-bootstrap/Card";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 export default function Portfolio() {
   const projects = [
@@ -55,27 +58,32 @@ export default function Portfolio() {
 
   return (
     <div>
-      <h2>Portfolio</h2>
-      {/* <img src={projects[0].screenShot} alt="Movie Game Screenshot" /> */}
-      <div className="projects">
-        {projects.map((project) => (
-          <Card className="bg-dark text-white project">
-            <Card.Img src={project.screenShot} alt="Card image" />
-            <Card.ImgOverlay className="hidden">
-              <Card.Title>{project.title}</Card.Title>
-              <Card.Text>
-                <ul>
-                  {project.skills.map((skill) => (
-                    <li>{skill}</li>
-                  ))}
-                </ul>
-                <a href={project.appLink}>Visit App</a>
-                <a href={project.gitHubLink}>View on GitHub</a>
-              </Card.Text>
-            </Card.ImgOverlay>
-          </Card>
-        ))}
-      </div>
+      <Container>
+        <h2>Portfolio</h2>
+        <div className="projects">
+          <Row>
+            {projects.map((project) => (
+              <Col md={6} lg={4}>
+                <Card className="bg-dark text-white project">
+                  <Card.Img src={project.screenShot} alt="Card image" />
+                  <Card.ImgOverlay className="hidden">
+                    <Card.Title>{project.title}</Card.Title>
+                    <Card.Text>
+                      <ul>
+                        {project.skills.map((skill) => (
+                          <li>{skill}</li>
+                        ))}
+                      </ul>
+                      <a href={project.appLink}>Visit App</a>
+                      <a href={project.gitHubLink}>View on GitHub</a>
+                    </Card.Text>
+                  </Card.ImgOverlay>
+                </Card>
+              </Col>
+            ))}
+          </Row>
+        </div>
+      </Container>
     </div>
   );
 }

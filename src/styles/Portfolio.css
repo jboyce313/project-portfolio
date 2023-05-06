@@ -1,19 +1,15 @@
 .project {
-  width: 400px;
-  margin: 20px auto;
+  margin-bottom: 20px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.card-img {
-  height: 100%;
-  width: auto;
+.projects {
+  padding-bottom: 80px;
 }
 
-.projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding-bottom: 80px;
+.card-img {
+  /* height: auto;
+  width: 100%; */
 }
 
 .card-img-overlay {
