@@ -18,28 +18,37 @@ function AboutMe({ display, setDisplay }) {
             <Col>
               <div className="bio">
                 <p>
-                  Hello! My name is Jacob and I live in the Kansas City metro
-                  area. I graduated from the University of Missouri - Kansas
-                  City in 2021 with a BA in Economics. I have long had an
-                  interest in programming. I've done some self-teaching
-                  throughout the years but, in the summer of 2022, I decided I
-                  wanted to get serious about persuing a career in software
-                  engineering and enrolled in the Full-Stack Coding Bootcamp at
-                  the University of Kansas.Upon my completion of this bootcamp
-                  in May of 2023, I will receive my full-stack certification.
-                  For more information on my coding competencies, please see the{" "}
+                  Hello! My name is Jacob and I graduated from the University of
+                  Missouri - Kansas City in 2021 with a BA in Economics. I have
+                  long had an interest in coding and I have done some
+                  self-teaching over the years. In the summer of 2022, I decided
+                  to get serious about persuing a career in software engineering
+                  and enrolled in the Full-Stack Coding Bootcamp at the
+                  University of Kansas. Upon my completion of this bootcamp in
+                  May of 2023, I will receive my full-stack certification.
+                  Navigate over to the{" "}
+                  <span
+                    className="resumeLink"
+                    onClick={() => setDisplay("portfolio")}
+                  >
+                    Portfolio
+                  </span>{" "}
+                  tab to view a gallery of projects I've done, complete with
+                  links to the apps and their GitHub repositories. For more
+                  information on my coding competencies, please see the{" "}
                   <span
                     className="resumeLink"
                     onClick={() => setDisplay("resume")}
                   >
-                    resumé
+                    Resumé
                   </span>{" "}
                   section of this site.
                 </p>
                 <p className="lastParagraph">
                   Outside of programming, I enjoy staying active. I like sports,
-                  especially soccer and climbing, and I love movies and music. I
-                  am recently married and a new father to a beautiful baby girl.
+                  especially soccer, basketball, and climbing. I also love
+                  movies and music. I am recently married and a new father to a
+                  beautiful baby girl.
                 </p>
               </div>
             </Col>

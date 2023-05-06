@@ -6,6 +6,7 @@ import "./styles/App.css";
 import "./styles/Portfolio.css";
 import "./styles/Contact.css";
 import "./styles/Footer.css";
+import "./styles/Resume.css";
 import Header from "./components/Header";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
