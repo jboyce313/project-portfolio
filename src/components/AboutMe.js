@@ -12,7 +12,7 @@ function AboutMe({ display, setDisplay }) {
 
         <div className="profile">
           <Row>
-            <Col lg={6}>
+            <Col className="pic-container" lg={6}>
               <img className="myPic" src={me} alt="Me" />
             </Col>
             <Col>

@@ -1,7 +1,4 @@
 header {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   padding: 20px;
   padding-bottom: 10px;
   background-color: rgb(42 38 152);
@@ -9,24 +6,28 @@ header {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
+.container {
+  max-width: 4000;
+}
+
 .my-name {
-  font-size: 60px;
-  margin-left: 40px;
-}
-
-.nav-options {
+  font-size: 3rem;
   display: flex;
-  flex-wrap: wrap;
-  margin-right: 40px;
-  margin-top: 17px;
+  justify-content: center;
 }
 
-.nav-options * {
-  margin-left: 100px;
-  font-size: 30px;
+.nav-col {
+  display: flex;
+  justify-content: center;
 }
 
-.nav-options *:hover {
+.nav-option {
+  display: flex;
+  align-items: center;
+  font-size: 26px;
+}
+
+.nav-option:hover {
   color: gold;
   border-bottom: 2px solid gold;
 }

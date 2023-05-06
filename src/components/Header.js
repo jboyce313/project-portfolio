@@ -1,17 +1,38 @@
-import React, { useState } from "react";
+import React from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 function Header({ display, setDisplay }) {
-  // const [display, setDisplay] = useState("portfolio");
-
   return (
     <header>
-      <h1 className="my-name">Jacob Boyce</h1>
-      <div className="nav-options">
-        <p onClick={() => setDisplay("start")}>About me</p>
-        <p onClick={() => setDisplay("portfolio")}>Portfolio</p>
-        <p onClick={() => setDisplay("contact")}>Contact</p>
-        <p onClick={() => setDisplay("resume")}>Resumé</p>
-      </div>
+      <Container>
+        <Row>
+          <Col lg={4}>
+            <h1 className="my-name">Jacob Boyce</h1>
+          </Col>
+          <Col className="nav-col" xs={6} sm={3} lg={2}>
+            <p className="nav-option" onClick={() => setDisplay("start")}>
+              About me
+            </p>
+          </Col>
+          <Col className="nav-col" xs={6} sm={3} lg={2}>
+            <p className="nav-option" onClick={() => setDisplay("portfolio")}>
+              Portfolio
+            </p>
+          </Col>
+          <Col className="nav-col" xs={6} sm={3} lg={2}>
+            <p className="nav-option" onClick={() => setDisplay("contact")}>
+              Contact
+            </p>
+          </Col>
+          <Col className="nav-col" xs={6} sm={3} lg={2}>
+            <p className="nav-option" onClick={() => setDisplay("resume")}>
+              Resumé
+            </p>
+          </Col>
+        </Row>
+      </Container>
     </header>
   );
 }
