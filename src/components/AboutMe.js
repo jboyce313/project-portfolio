@@ -22,7 +22,7 @@ function AboutMe({ display, setDisplay }) {
                   Missouri - Kansas City in 2021 with a BA in Economics. I have
                   long had an interest in coding and I have done some
                   self-teaching over the years. In the summer of 2022, I decided
-                  to get serious about persuing a career in software engineering
+                  to get serious about pursuing a career in software engineering
                   and enrolled in the Full-Stack Coding Bootcamp at the
                   University of Kansas. Upon my completion of this bootcamp in
                   May of 2023, I will receive my full-stack certification.
