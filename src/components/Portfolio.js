@@ -17,7 +17,7 @@ export default function Portfolio() {
       screenShot: techBlog,
       appLink: "https://techtonic.herokuapp.com/",
       gitHubLink: "https://github.com/jboyce313/tech-blog",
-      skills: ["SQL/Sequelize", "RESTful", "Express", "Node.js"],
+      skills: ["SQL/Sequelize", "Express", "Node.js"],
     },
     {
       title: "Rotten Tomatoes Guesser",
@@ -31,7 +31,7 @@ export default function Portfolio() {
       screenShot: noteTaker,
       appLink: "https://note-taker-9000.herokuapp.com/",
       gitHubLink: "https://github.com/jboyce313/note-taker",
-      skills: ["RESTful", "Express", "JSON", "Node.js"],
+      skills: ["Express", "RESTful", "Node.js"],
     },
     {
       title: "Work Day Scheduler",
@@ -45,7 +45,7 @@ export default function Portfolio() {
       screenShot: weatherApp,
       appLink: "https://jboyce313.github.io/weather-dashboard/",
       gitHubLink: "https://github.com/jboyce313/weather-dashboard",
-      skills: ["JQuery", "Dynamic HTML", "CSS", "Third Party API"],
+      skills: ["JQuery", "Dynamic HTML and CSS", "Third Party API"],
     },
     {
       title: "Code Quiz",
