@@ -25,8 +25,8 @@ function AboutMe({ display, setDisplay }) {
                   to get serious about pursuing a career in software engineering
                   and enrolled in the Full-Stack Coding Bootcamp at the
                   University of Kansas. Upon my completion of this bootcamp in
-                  May of 2023, I will receive my full-stack certification.
-                  Navigate over to the{" "}
+                  May of 2023, I will receive my full-stack certification. Feel
+                  free to navigate over to the{" "}
                   <span
                     className="resumeLink"
                     onClick={() => setDisplay("portfolio")}
