@@ -4,7 +4,7 @@ import weatherApp from "../images/weather-app.png";
 import noteTaker from "../images/note-taker.png";
 import techBlog from "../images/tech-blog.png";
 import scheduler from "../images/scheduler.png";
-import codeQuiz from "../images/code-quiz.png";
+import gameNight from "../images/gamenight.png";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -12,6 +12,13 @@ import Col from "react-bootstrap/Col";
 
 export default function Portfolio() {
   const projects = [
+    {
+      title: "GameNight",
+      screenShot: gameNight,
+      appLink: "https://game-night-1.herokuapp.com/",
+      gitHubLink: "https://github.com/AMess33/GameNight",
+      skills: ["MERN", "GraphQL", "Collaborative Project"],
+    },
     {
       title: "Tech Blog",
       screenShot: techBlog,
@@ -46,13 +53,6 @@ export default function Portfolio() {
       appLink: "https://jboyce313.github.io/weather-dashboard/",
       gitHubLink: "https://github.com/jboyce313/weather-dashboard",
       skills: ["JQuery", "Dynamic HTML and CSS", "Third Party API"],
-    },
-    {
-      title: "Code Quiz",
-      screenShot: codeQuiz,
-      appLink: "https://jboyce313.github.io/code-quiz/",
-      gitHubLink: "https://github.com/jboyce313/code-quiz",
-      skills: ["Timer Interval", "Dynamic HTML", "CSS"],
     },
   ];
 
