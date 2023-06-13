@@ -15,8 +15,8 @@ export default function Portfolio() {
     {
       title: "GameNight",
       screenShot: gameNight,
-      appLink: "https://game-night-1.herokuapp.com/",
-      gitHubLink: "https://github.com/AMess33/GameNight",
+      appLink: "https://game-night.herokuapp.com/",
+      gitHubLink: "https://github.com/jboyce313/GameNight",
       skills: ["MERN", "GraphQL", "Collaborative Project"],
     },
     {
