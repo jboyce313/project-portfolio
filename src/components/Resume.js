@@ -23,7 +23,8 @@ export default function Resume() {
           <li>Express</li>
           <li>SQL</li>
           <li>NoSQL</li>
-          <li>RESTful</li>
+          <li>MongoDB</li>
+          <li>GraphQL</li>
         </ul>
       </div>
     </div>
