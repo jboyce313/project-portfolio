@@ -15,16 +15,17 @@ export default function Resume() {
           <li>CSS</li>
           <li>React</li>
           <li>Bootstrap</li>
-          <li>JQuery</li>
         </ul>
         <h4>Back-End Competencies</h4>
         <ul>
           <li>Node.js</li>
+          <li>JQuery</li>
           <li>Express</li>
           <li>SQL</li>
           <li>NoSQL</li>
           <li>MongoDB</li>
           <li>GraphQL</li>
+          <li>Python</li>
         </ul>
       </div>
     </div>

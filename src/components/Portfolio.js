@@ -5,6 +5,7 @@ import noteTaker from "../images/note-taker.png";
 import techBlog from "../images/tech-blog.png";
 import scheduler from "../images/scheduler.png";
 import gameNight from "../images/gamenight.png";
+import justTechNews from "../images/just-tech-news.png";
 import Card from "react-bootstrap/Card";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -27,6 +28,13 @@ export default function Portfolio() {
       skills: ["SQL/Sequelize", "Express", "Node.js"],
     },
     {
+      title: "Just Tech News",
+      screenShot: justTechNews,
+      appLink: "https://just-tech-news-daily-594de3f5fe7b.herokuapp.com/",
+      gitHubLink: "https://github.com/jboyce313/python-newsfeed",
+      skills: ["Python", "Flask", "RESTful"],
+    },
+    {
       title: "Rotten Tomatoes Guesser",
       screenShot: movieGame,
       appLink: "https://jboyce313.github.io/movie-game/",
@@ -39,13 +47,6 @@ export default function Portfolio() {
       appLink: "https://note-taker-9000.herokuapp.com/",
       gitHubLink: "https://github.com/jboyce313/note-taker",
       skills: ["Express", "RESTful", "Node.js"],
-    },
-    {
-      title: "Work Day Scheduler",
-      screenShot: scheduler,
-      appLink: "https://jboyce313.github.io/work-day-scheduler/",
-      gitHubLink: "https://github.com/jboyce313/work-day-scheduler",
-      skills: ["JavaScript", "DayJS library", "Local storage"],
     },
     {
       title: "Weather Dashboard",
