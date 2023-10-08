@@ -9,17 +9,18 @@ export default function Resume() {
         <a className="resume" href={resume}>
           Dowload my resumé here
         </a>
-        <h4>Front-End Competencies</h4>
+        <h4>Front-End Experience</h4>
         <ul>
           <li>HTML</li>
           <li>CSS</li>
+          <li>JavaScript</li>
+          <li>jQuery</li>
           <li>React</li>
           <li>Bootstrap</li>
         </ul>
-        <h4>Back-End Competencies</h4>
+        <h4>Back-End Experience</h4>
         <ul>
           <li>Node.js</li>
-          <li>JQuery</li>
           <li>Express</li>
           <li>SQL</li>
           <li>NoSQL</li>
